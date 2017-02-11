@@ -17,12 +17,14 @@ title: Gregory Ovenden - Wildlife Sound Recordist
 email: gregoryovenden@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Gregory Ovenden - Wildlife Sound Recordist, Location, Post Production and Studio Sound Engineer
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: /thesoundfarmer # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # template things
 tag_line: Wildlife Sound Recordist, Location, Post Production and Studio Sound Engineer
 twitter_username: thesoundfarmer
+
+google_analytics: UA-91800172-1
 
 permalink: :title
 
