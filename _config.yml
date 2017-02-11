@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Gregory Ovenden - Wildlife Sound Recordist
 email: gregoryovenden@gmail.com
+
 description: > # this means to ignore newlines until "baseurl:"
   Gregory Ovenden - Wildlife Sound Recordist, Location, Post Production and Studio Sound Engineer
 baseurl: /thesoundfarmer # the subpath of your site, e.g. /blog
