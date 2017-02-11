@@ -1,0 +1,70 @@
+<header id="scrolly">
+  <a class="header-link" href="/">&nbsp;</a>
+  <div class="description">
+    <span class="text-hide sr-only">{{ site.title | escape }}</span>
+    <h1>{{ site.tag_line | escape }}</h1>
+  </div>
+  <div class="parallax header-header" data-velocity=".1" data-fit="-230"></div>
+  <div class="parallax header-logo" data-velocity="-.5" data-fit="150"></div>
+</header>
+<header class="banner navbar navbar-default navbar-static-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--<a class="navbar-brand" href="/">Gregory Ovenden &#8211; Wildlife Sound Recordist</a>-->
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul id="menu-main" class="nav navbar-nav">
+        <li {% if page.url == '/' %}class="active"{% endif %}>
+          <a href="/">The Sound Farmer</a>
+        </li>
+        <li {% if page.url== '/blog/' %}class="active"{% endif %}>
+          <a href="/blog/">Blog</a>
+        </li>
+        <li {% if page.url== '/podcasts/' %}class="active"{% endif %}>
+          <a href="/podcasts/">Podcasts</a>
+        </li>
+        <li {% if page.url== '/releases/' %}class="active"{% endif %}>
+          <a href="/releases/">Releases</a>
+        </li>
+        <li {% if page.url== '/wildlife-sound/' %}class="active"{% endif %}>
+          <a href="/wildlife-sound/">Wildlife and Natural Sound</a>
+        </li>
+        <li {% if page.url== '/equipment/' %}class="active"{% endif %}>
+          <a href="/equipment/">Equipment</a>
+        </li>
+        <li {% if page.url== '/cv/' %}class="active"{% endif %}>
+          <a href="/cv/">Credits</a>
+        </li>
+        <li {% if page.url== '/show-reel/' %}class="active"{% endif %}>
+          <a href="/show-reel/">Show Reel</a>
+        </li>
+        <li {% if page.url== '/links/' %}class="active"{% endif %}>
+          <a href="/links/">Links</a>
+        </li>
+        <li {% if page.url== '/contact/' %}class="active"{% endif %}>
+          <a href="/contact/">Contact</a>
+        </li>
+      </ul>
+      <!--<ul id="menu-main" class="nav navbar-nav">
+        {% assign sorted_pages = site.pages | sort:"order" | filter: "unique" %} {% for my_page in sorted_pages %} {% if my_page.title
+        %} {% if page.url == my_page.url %}
+        <li class="active">
+          {% else %}
+          <li>
+            {% endif %} {% if my_page.title == 'Blog' %}
+            <a href="{{ my_page.url | relative_url }}">Blog</a>
+          </li>
+          {% else %}
+          <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        </li>
+        {% endif %} {% endif %} {% endfor %}
+      </ul>-->
+    </nav>
+  </div>
+</header>
