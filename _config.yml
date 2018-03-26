@@ -16,12 +16,12 @@
 title: Gregory Ovenden - Wildlife Sound Recordist
 email: gregoryovenden@gmail.com
 
-description: Gregory Ovenden - Wildlife Sound Recordist, Location, Post Production and Studio Sound Engineer
+description: Gregory Ovenden - Location Sound Recordist, Outside Broadcast Sound Engineer
 baseurl:  # the subpath of your site, e.g. /blog
 url: "http://www.thesoundfarmer.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # template things
-tag_line: Wildlife Sound Recordist, Location, Post Production and Studio Sound Engineer
+tag_line: Location Sound Recordist, Outside Broadcast Sound Engineer,
 twitter_username: thesoundfarmer
 
 google_analytics: UA-91800172-1
