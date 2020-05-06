@@ -21,7 +21,7 @@ baseurl:  # the subpath of your site, e.g. /blog
 url: "http://www.thesoundfarmer.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # template things
-tag_line: Location Sound Recordist, Outside Broadcast Sound Engineer,
+tag_line: Location Sound Recordist, Outside Broadcast Sound Engineer, Wildlife Sound Recordist
 twitter_username: thesoundfarmer
 
 google_analytics: UA-91800172-1
